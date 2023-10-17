@@ -11,3 +11,16 @@ p{
     font-size: 20px;
     color: black;   
 }
+
+/*body alignment*/
+body{
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto 100vw auto;
+}
+
+/*header and footer edit
+header, footer {
+    background-image: linear-gradient(to right, green, blue);
+}
+*/
