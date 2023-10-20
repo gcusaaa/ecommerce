@@ -6,6 +6,92 @@
     padding: 0;
     box-sizing: border-box;
 }
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgb(68, 52, 171));
+    background-size: cover;
+}
+.navbar{
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 60px;
+}
+.logo{
+    color: blue;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 12px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 75px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+ ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+ }
+ul li a:hover{
+    color: blue;
+}
+.search{
+    width: 310px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid ;
+    margin-top: 14px;
+    color: white;
+    border-left: none;
+    font-size: 16px;
+    float: right;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    background: lightskyblue;
+    margin-top: 14px;
+    color: blue;
+    float: right;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+
+
 
 p{
     font-size: 20px;
@@ -14,13 +100,14 @@ p{
 
 /*body alignment*/
 body{
-    text-align: center;
+    text-align: left;
     display: grid;
     grid-template-rows: auto 100vw auto;
 }
 
-/*header and footer edit
+/*header and footer edit*/
 header, footer {
-    background-image: linear-gradient(to right, green, blue);
+    
 }
-*/
+
+
