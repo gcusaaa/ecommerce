@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.about {
+    display: flex;
+    background-color: green;
+}
+.about img {
+    width: 50%;
+
+}
+.about div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about p {
+    width: 50%;
+
+}

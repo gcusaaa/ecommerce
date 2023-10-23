@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: grid;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.container img{
+    height: 400px;
+    width: 400px;
+}
+
+[id*='row'] {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.button-wrapper {
+    justify-content: space-between;
+}
+.button-wrapper button {
+    border: 0;
+    color: blue;
+    margin: 5px;
+    padding: 10px;
+    background-color: black;
+}
+/* .button-wrapper button:hover {
+    background-color: black;
+    color: white;
+} */
